@@ -1,0 +1,1 @@
+import{af as o,ab as r,ac as t,bL as n,ad as u,ae as i}from"./index.b3b82eb3.js";const c="users/change-password",S=e=>i({url:c,method:"POST",data:e}),m=({config:e}={})=>{const a=o();return r({mutationFn:S,onSuccess(s){s.success&&t("SUCCESS",s.data.message),a.invalidateQueries([n])},onError:s=>{u(s)},...e})};export{m as u};

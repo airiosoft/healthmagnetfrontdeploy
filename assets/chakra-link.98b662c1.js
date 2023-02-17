@@ -1,0 +1,1 @@
+import{a as r,ag as i,ah as s,T as t}from"./index.b3b82eb3.js";function p({children:a,to:o,textProps:e,...n}){return r(i,{as:s,to:o,role:"group",_hover:{color:"primary",textDecor:"underline"},transition:"all 1s ease",...n,children:r(t,{as:"span",fontWeight:700,_hover:{_groupHover:{color:"primary"}},...e,children:a})})}export{p as C};
